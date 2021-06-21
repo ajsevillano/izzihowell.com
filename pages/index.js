@@ -13,6 +13,13 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header>
+        <nav>Home etc</nav>
+        <div className="herobanner">
+          <div className="text"></div>
+          <div className="picture"></div>
+        </div>
+      </header>
 
       <main className={styles.main}></main>
 
