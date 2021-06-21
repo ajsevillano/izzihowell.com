@@ -14,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <div className="logo">Izzi Howell</div>
-        <nav>Home etc</nav>
+        <h1 className={styles.logo}>Izzi Howell</h1>
+        <nav className={styles.navigation}>Home etc</nav>
       </header>
       <div className="herobanner">
         <div className="text"></div>
