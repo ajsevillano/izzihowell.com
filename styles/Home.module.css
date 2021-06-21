@@ -110,7 +110,7 @@
 /* Header */
 
 .header {
-  background-color: #ffba00;
+  background-color: #fdcd07;
   width: 100%;
   min-height: 10vh;
   display: flex;
@@ -129,6 +129,21 @@
 .navigation {
   color: white;
   margin-left: auto;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.hero {
+  background-color: #fd9b07cc;
+  min-height: 50vh;
+  width: 100%;
 }
 
 @media (max-width: 600px) {

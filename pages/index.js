@@ -15,9 +15,16 @@ export default function Home() {
       </Head>
       <header className={styles.header}>
         <h1 className={styles.logo}>Izzi Howell</h1>
-        <nav className={styles.navigation}>Home etc</nav>
+        <nav className={styles.navigation}>
+          <ul>
+            <li>Home</li>
+            <li>Books</li>
+            <li>About</li>
+            <li>Social</li>
+          </ul>
+        </nav>
       </header>
-      <div className="herobanner">
+      <div className={styles.hero}>
         <div className="text"></div>
         <div className="picture"></div>
       </div>
