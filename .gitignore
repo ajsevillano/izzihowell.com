@@ -36,3 +36,6 @@ yarn-error.log*
 #scripts
 acp.sh
 sass.sh
+
+#css map
+styles/globals.css.map
