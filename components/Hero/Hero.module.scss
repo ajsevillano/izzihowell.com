@@ -1,20 +1,33 @@
 .presentation {
   height: 100%;
   flex: 0.5;
-  background-color: brown;
+  color: #353561;
+  padding: 0 4rem 0 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   h1 {
-    color: white;
     font-size: 4rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    max-width: 60%;
   }
 
   p {
-    color: white;
     line-height: 1.6rem;
+    max-width: 60%;
   }
 
   @media screen and (max-width: 768px) {
     flex: 1;
+    text-align: center;
   }
 }
 
@@ -22,5 +35,4 @@
   height: 100%;
   width: 100%;
   flex: 0.5;
-  background-color: crimson;
 }
