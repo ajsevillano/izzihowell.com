@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from './Header.module.scss';
-import Section from '../Layouts/Section';
+import WrapperFlex from '../Layouts/WrapperFlex';
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Section background="#fdcd07">
+      <WrapperFlex background="#fdcd07">
         <h1 className={styles.logo}>Izzi Howell</h1>
         <nav className={styles.navigation}>
           <ul>
@@ -23,7 +23,7 @@ const Header = () => {
             <li>Social</li>
           </ul>
         </nav>
-      </Section>
+      </WrapperFlex>
     </>
   );
 };

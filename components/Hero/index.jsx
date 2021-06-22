@@ -1,12 +1,12 @@
 import styles from './Hero.module.scss';
-import Section from '../Layouts/Section';
+import WrapperFlex from '../Layouts/WrapperFlex';
 
 const Hero = () => {
   return (
-    <Section background="#fdcd07" minheight="50vh">
+    <WrapperFlex background="#fdcd07" minheight="50vh">
       <div className="text">Main text</div>
       <div className="picture">Picture</div>
-    </Section>
+    </WrapperFlex>
   );
 };
 
