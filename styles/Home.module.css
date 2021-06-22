@@ -107,39 +107,6 @@
   line-height: 1.5;
 }
 
-/* Header */
-
-.header {
-  background-color: #fdcd07;
-  width: 100%;
-  min-height: 10vh;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-direction: row;
-  padding: 0 3rem;
-}
-
-.logo {
-  font-family: 'Pacifico', cursive;
-  color: white;
-  font-size: 2rem;
-}
-
-.navigation {
-  color: white;
-  margin-left: auto;
-}
-
-.navigation ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navigation li {
-  list-style: none;
-}
-
 .hero {
   background-color: #fd9b07cc;
   min-height: 50vh;
