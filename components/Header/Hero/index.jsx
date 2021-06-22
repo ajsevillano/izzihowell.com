@@ -1,9 +1,9 @@
 import styles from './Hero.module.scss';
-import WrapperFlex from '../Layouts/WrapperFlex';
+import WrapperFlex from '../../Layouts/WrapperFlex';
 
 const Hero = () => {
   return (
-    <WrapperFlex background="#fdcd07" minheight="50vh">
+    <>
       <div className={styles.presentation}>
         <h2>Winner of the Royal Society Young People's Book Prize 2020</h2>
         <h1>Welcome!</h1>
@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={styles.picture}>Picture</div>
-    </WrapperFlex>
+    </>
   );
 };
 

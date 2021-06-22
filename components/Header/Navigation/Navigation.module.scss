@@ -1,0 +1,35 @@
+.navwrapper {
+  display: flex;
+  flex-direction: row;
+  min-width: 90%;
+  align-items: center;
+
+  .logo {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .navigation {
+    margin-left: auto;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    li {
+      list-style: none;
+      font-size: 1.3rem;
+      margin-right: 1.5rem;
+      color: rgb(53, 53, 53);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}
