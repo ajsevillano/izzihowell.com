@@ -1,8 +1,17 @@
-// Section Wrapper
 import styles from './Section.module.scss';
 
-const Section = ({ children }) => {
-  return <div className={styles.wrapper}>{children}</div>;
+// Section Wrapper
+const Section = ({ children, background = '#ffffff' }) => {
+  return (
+    <div
+      className={styles.wrapper}
+      style={{
+        backgroundColor: background,
+      }}
+    >
+      {children}
+    </div>
+  );
 };
 
 export default Section;

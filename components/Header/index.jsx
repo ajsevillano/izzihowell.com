@@ -13,7 +13,7 @@ const Header = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Section>
+      <Section background="#fdcd07">
         <h1 className={styles.logo}>Izzi Howell</h1>
         <nav className={styles.navigation}>
           <ul>
