@@ -1,7 +1,7 @@
 import styles from './Section.module.scss';
 
 // Section Wrapper
-const Section = ({ children, background = '#ffffff', minheight }) => {
+const Section = ({ children, background = '#ffffff', minheight = '10vh' }) => {
   return (
     <div
       className={styles.wrapper}

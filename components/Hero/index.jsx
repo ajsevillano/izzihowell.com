@@ -3,9 +3,9 @@ import Section from '../Layouts/Section';
 
 const Hero = () => {
   return (
-    <Section background="#fd9b07cc" minheight="50vh">
-      <div className="text"></div>
-      <div className="picture"></div>
+    <Section background="#fdcd07" minheight="50vh">
+      <div className="text">Main text</div>
+      <div className="picture">Picture</div>
     </Section>
   );
 };
