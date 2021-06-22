@@ -1,11 +1,7 @@
 import styles from './WrapperFlex.module.scss';
 
 // Section Wrapper
-const WrapperFlex = ({
-  children,
-  background = '#ffffff',
-  minheight = '10vh',
-}) => {
+const WrapperFlex = ({ children, background = '#ffffff', minheight }) => {
   return (
     <div
       className={styles.wrapper}

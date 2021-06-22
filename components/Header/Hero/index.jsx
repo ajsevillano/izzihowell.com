@@ -3,7 +3,7 @@ import WrapperFlex from '../../Layouts/WrapperFlex';
 
 const Hero = () => {
   return (
-    <>
+    <div className={styles.herowrapper}>
       <div className={styles.presentation}>
         <h2>Winner of the Royal Society Young People's Book Prize 2020</h2>
         <h1>Welcome!</h1>
@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={styles.picture}>Picture</div>
-    </>
+    </div>
   );
 };
 

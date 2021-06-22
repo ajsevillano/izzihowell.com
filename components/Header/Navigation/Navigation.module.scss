@@ -3,6 +3,9 @@
   flex-direction: row;
   min-width: 90%;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    min-width: 0%;
+  }
 
   .logo {
     font-family: 'Pacifico', cursive;
