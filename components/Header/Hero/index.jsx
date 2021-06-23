@@ -13,7 +13,7 @@ const Hero = () => {
           fuga libero quaerat porro non laboriosam cupiditate, quas quod.
         </p>
       </div>
-      <div className={styles.picture}>Picture</div>
+      <div className={styles.picture}></div>
     </div>
   );
 };
