@@ -1,4 +1,5 @@
 import styles from './Navigation.module.scss';
+import Button from '../../Button';
 
 const Navigation = () => {
   return (
@@ -11,7 +12,7 @@ const Navigation = () => {
           <li>About</li>
           <li>Social</li>
           <li>
-            <button>Contact me</button>
+            <Button>Contact me</Button>
           </li>
         </ul>
       </nav>
