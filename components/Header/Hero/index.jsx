@@ -1,5 +1,4 @@
 import styles from './Hero.module.scss';
-import WrapperFlex from '../../Layouts/WrapperFlex';
 
 const Hero = () => {
   return (
@@ -8,9 +7,11 @@ const Hero = () => {
         <h2>Winner of the Royal Society Young People's Book Prize 2020</h2>
         <h1>Welcome!</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          suscipit expedita sint, quia in obcaecati cumque, saepe maiores nemo
-          fuga libero quaerat porro non laboriosam cupiditate, quas quod.
+          Hi, I’m Izzi Howell. I’m an author and editor of children’s reference
+          books. I’ve written over 100 books on many exciting topics, from space
+          and volcanoes to the Ancient Greeks and electricity! I love to write
+          about animals – did you know that crocodiles sometimes climb trees to
+          sunbathe?!
         </p>
       </div>
       <div className={styles.picture}></div>

@@ -1,7 +1,7 @@
 .herowrapper {
   display: flex;
   flex-direction: row;
-  min-width: 80%;
+  min-width: 70%;
   align-items: center;
   height: 70%;
 
@@ -9,10 +9,14 @@
     flex-direction: column-reverse;
   }
 
+  // @media screen and (max-width: 1398px) {
+  //   min-width: 80%;
+  // }
+
   .presentation {
     display: flex;
     flex-direction: column;
-    color: #353561;
+    color: #353535;
 
     h1 {
       font-size: 4rem;
@@ -23,11 +27,13 @@
 
     h2 {
       margin-bottom: 1rem;
-      max-width: 60%;
+      max-width: 80%;
     }
 
     p {
-      max-width: 400px;
+      max-width: 500px;
+      line-height: 1.8rem;
+      font-size: 1.2rem;
     }
 
     @media screen and (max-width: 768px) {
