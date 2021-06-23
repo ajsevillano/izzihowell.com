@@ -10,6 +10,9 @@ const Navigation = () => {
           <li>Books</li>
           <li>About</li>
           <li>Social</li>
+          <li>
+            <button>Contact me</button>
+          </li>
         </ul>
       </nav>
     </div>
