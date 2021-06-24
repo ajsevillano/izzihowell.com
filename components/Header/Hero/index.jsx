@@ -1,4 +1,5 @@
 import styles from './Hero.module.scss';
+import Button from '../../Button';
 
 const Hero = () => {
   return (
@@ -12,8 +13,11 @@ const Hero = () => {
           the Ancient Greeks and electricity! I love to write about animals –
           did you know that crocodiles sometimes climb trees to sunbathe?!
         </p>
+        <Button size="lg">Get in touch</Button>
       </div>
-      <div className={styles.picture}></div>
+      <div className={styles.picture}>
+        <img src="izzi-presentation.png" alt="Izzi Howell" />
+      </div>
     </div>
   );
 };

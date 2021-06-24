@@ -1,7 +1,8 @@
 .herowrapper {
   display: flex;
   flex-direction: row;
-  min-width: 70%;
+  max-width: 70%;
+  width: 70%;
   align-items: center;
   height: 47vh;
 
@@ -13,10 +14,17 @@
   //   min-width: 80%;
   // }
 
+  .picture {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
   .presentation {
     display: flex;
     flex-direction: column;
     color: #353535;
+    width: 50%;
 
     h1 {
       font-size: 3.7rem;
