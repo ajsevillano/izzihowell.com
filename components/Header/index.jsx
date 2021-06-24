@@ -15,7 +15,7 @@ const Header = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <WrapperFlex background="#fdcd07" minheight="70vh">
+      <WrapperFlex background="#fdcd07">
         <Navigation />
         <Hero />
       </WrapperFlex>
