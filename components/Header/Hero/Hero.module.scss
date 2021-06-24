@@ -3,7 +3,7 @@
   flex-direction: row;
   min-width: 70%;
   align-items: center;
-  height: 70%;
+  height: 47vh;
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
@@ -19,7 +19,7 @@
     color: #353535;
 
     h1 {
-      font-size: 4rem;
+      font-size: 3.7rem;
       font-weight: 900;
       margin-top: 0;
       margin-bottom: 0;
