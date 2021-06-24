@@ -19,6 +19,9 @@ const Header = () => {
         <Navigation />
         <Hero />
       </WrapperFlex>
+      <div className={styles.waveWrapper}>
+        <img className={styles.wave} src="wave.svg" alt="" />
+      </div>
     </>
   );
 };
