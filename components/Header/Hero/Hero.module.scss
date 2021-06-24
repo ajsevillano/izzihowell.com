@@ -67,7 +67,7 @@
     text-align: center;
 
     h1 {
-      font-size: 3.7rem;
+      font-size: 3.5rem;
       font-weight: 900;
       margin-top: 0;
       margin-bottom: 0;
@@ -76,6 +76,27 @@
     p {
       line-height: 1.8rem;
       font-size: 1.2rem;
+      color: #5a5a5a;
+    }
+
+    .spanpink {
+      color: #e00061;
+    }
+
+    .spanblue {
+      color: #3999e6;
+    }
+
+    .year {
+      color: white;
+      background-color: #3999e6;
+      width: 100px;
+      padding: 0.2rem 1rem;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      margin-top: -0.5rem;
+      align-self: center;
+      border-radius: 1rem;
     }
   }
 
