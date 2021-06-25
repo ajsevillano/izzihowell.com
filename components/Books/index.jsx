@@ -15,7 +15,7 @@ const Books = () => {
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
-          <img src="books/polution.png" alt="Cats react to scient facts" />
+          <img src="books/pollution.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
@@ -43,24 +43,15 @@ const Books = () => {
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/science.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/human-body.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/around-world.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
       </div>
