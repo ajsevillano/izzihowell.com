@@ -4,43 +4,73 @@ const Books = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
       <div className={styles.book}>
-        <img src="cats-react-scient.png" alt="Cats react to scient facts" />
+        <img
+          src="books/cats-react-scient.png"
+          alt="Cats react to scient facts"
+        />
         <h3>Cats react to scient facts</h3>
       </div>
     </section>
