@@ -4,13 +4,12 @@ import Books from '../components/Books';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Header />
-      <main className={styles.main}>
-        <Books />
-      </main>
+
+      <Books />
 
       <footer className={styles.footer}></footer>
-    </div>
+    </>
   );
 }
