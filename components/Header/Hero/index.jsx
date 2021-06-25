@@ -10,8 +10,7 @@ const Hero = () => {
       <div className={styles.intro}>
         <h2>
           Winner of the <span className={styles.spanpink}>Royal Society</span>{' '}
-          <span className={styles.spanblue}> Young People's</span>{' '}
-          <span className={styles.spanpink}>Book Prize</span>{' '}
+          Young People's <span className={styles.spanpink}>Book Prize</span>{' '}
         </h2>
         <span className={styles.year}>2020</span>
         <h1> Hi, I'm Izzi Howell</h1>
