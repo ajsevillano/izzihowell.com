@@ -11,52 +11,35 @@ const Books = () => {
 
       <div className={styles.gridwrapper}>
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/make-mistakes.png" alt="Cats react to scient facts" />
+          <h3>Cats react to scient facts</h3>
+        </div>
+        <div className={styles.book}>
+          <img src="books/polution.png" alt="Cats react to scient facts" />
+          <h3>Cats react to scient facts</h3>
+        </div>
+        <div className={styles.book}>
+          <img src="books/stand.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
           <img
-            src="books/cats-react-scient.png"
+            src="books/working-computers-robots.png"
             alt="Cats react to scient facts"
           />
           <h3>Cats react to scient facts</h3>
         </div>
+
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/outer-space.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/dinosaurs.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
-          <h3>Cats react to scient facts</h3>
-        </div>
-        <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
-          <h3>Cats react to scient facts</h3>
-        </div>
-        <div className={styles.book}>
-          <img
-            src="books/cats-react-scient.png"
-            alt="Cats react to scient facts"
-          />
+          <img src="books/sports.png" alt="Cats react to scient facts" />
           <h3>Cats react to scient facts</h3>
         </div>
         <div className={styles.book}>
