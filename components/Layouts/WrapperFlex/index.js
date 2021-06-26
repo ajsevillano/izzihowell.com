@@ -5,15 +5,13 @@ const defaultBackground = { background: '#ffffff' };
 // Section Wrapper
 const WrapperFlex = ({
   children,
-  background = defaultBackground,
-  minheight,
+  background = defaultBackground.background,
 }) => {
   return (
     <div
       className={styles.wrapper}
       style={{
         backgroundColor: background,
-        minHeight: minheight,
       }}
     >
       {children}
