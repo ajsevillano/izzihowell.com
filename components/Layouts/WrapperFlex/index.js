@@ -1,12 +1,9 @@
 import styles from './WrapperFlex.module.scss';
 
-const defaultBackground = { background: '#ffffff' };
+const defaultProps = { background: '#ffffff' };
 
 // Section Wrapper
-const WrapperFlex = ({
-  children,
-  background = defaultBackground.background,
-}) => {
+const WrapperFlex = ({ children, background = defaultProps.background }) => {
   return (
     <div
       className={styles.wrapper}

@@ -1,8 +1,8 @@
 import styles from './Button.module.scss';
 
-const defaultSize = { size: 'md' };
+const defaultProps = { size: 'md' };
 
-const Button = ({ children, size = defaultSize }) => {
+const Button = ({ children, size = defaultProps.size }) => {
   return (
     <button className={[styles.button, styles[size]].join(' ')}>
       {children}
