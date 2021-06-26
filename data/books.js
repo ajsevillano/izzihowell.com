@@ -1,61 +1,56 @@
 export const books = [
   {
-    uid: 01,
+    uid: 1,
     name: 'Make mistakes',
-    set: 'unknown',
+    set: 'Grow your main',
     img: '/books/make-mistakes.png',
   },
   {
-    uid: 02,
+    uid: 2,
     name: 'Pollution',
     set: 'ecographics',
     img: '/books/pollution.png',
   },
+
   {
-    uid: 02,
-    name: 'Pollution',
-    set: 'ecographics',
-    img: '/books/pollution.png',
-  },
-  {
-    uid: 03,
+    uid: 3,
     name: 'stant against prejudice',
     set: 'unknown',
     img: '/books/stand.png',
   },
   {
-    uid: 04,
+    uid: 4,
     name: 'working with computers & robotics',
     set: 'unknown',
     img: '/books/working-computers-robots.png',
   },
   {
-    uid: 05,
+    uid: 5,
     name: 'Outer space',
     set: 'go quiz yourself',
     img: '/books/outer-space.png',
   },
   {
-    uid: 06,
+    uid: 6,
     name: 'Dinosaurs',
     set: 'go quiz yourself',
     img: '/books/dinosaurs.png',
   },
   {
-    uid: 07,
+    uid: 7,
     name: 'Sport',
     set: 'go quiz yourself',
-    img: '/books/.png',
+    img: '/books/sports.png',
   },
 
   {
-    uid: 08,
+    uid: 8,
     name: 'Science',
     set: 'go quiz yourself',
     img: '/books/science.png',
   },
   {
-    uid: 09,
+    uid: 9,
     name: 'Human body',
     set: 'go quiz yourself',
     img: '/books/human-body.png',
