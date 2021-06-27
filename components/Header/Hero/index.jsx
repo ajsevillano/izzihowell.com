@@ -8,11 +8,6 @@ const Hero = () => {
         <img src="izzi-presentation.png" alt="Izzi Howell" />
       </div>
       <div className={styles.intro}>
-        {/* <h2>
-          Winner of the <span className={styles.spanpink}>Royal Society</span>{' '}
-          Young People's <span className={styles.spanpink}>Book Prize</span>{' '}
-        </h2>
-        <span className={styles.year}>2020</span> */}
         <h1> Hi, I'm Izzi Howell</h1>
         <p>
           I'm an author and editor of children’s reference books. I’ve written
