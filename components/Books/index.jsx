@@ -9,7 +9,9 @@ const Books = () => {
         <h1 className={styles.sectiontitle}>My books</h1>
         <p className={styles.sectionsubtitle}>A showcase of some of my books</p>
       </WrapperFlex>
-      <BookCard />
+      <div className={styles.gridwrapper}>
+        <BookCard />
+      </div>
     </section>
   );
 };
