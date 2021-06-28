@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import styles from './Header.module.scss';
 import WrapperFlex from '../Layouts/WrapperFlex';
 import Hero from './Hero/index';
 import Navigation from './Navigation';
+import Wave from './Wave';
 
 const Header = () => {
   return (
@@ -19,9 +19,7 @@ const Header = () => {
         <Navigation />
         <Hero />
       </WrapperFlex>
-      <div className={styles.waveWrapper}>
-        <img className={styles.wave} src="wave.svg" alt="" />
-      </div>
+      <Wave />
     </>
   );
 };

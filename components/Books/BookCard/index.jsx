@@ -1,4 +1,6 @@
+//Data
 import { books } from '../../../data/books';
+//Styles
 import styles from './BookCard.module.scss';
 
 const BookCard = () => {
