@@ -1,12 +1,17 @@
 import styles from './WrapperFlex.module.scss';
 
-const defaultProps = { background: '#ffffff', direction: 'column' };
+const defaultProps = {
+  background: '#ffffff',
+  direction: 'column',
+  justify: 'center',
+};
 
 // Section Wrapper
 const WrapperFlex = ({
   children,
   background = defaultProps.background,
   direction = defaultProps.direction,
+  justify = defaultProps.justify,
 }) => {
   return (
     <div
@@ -14,6 +19,7 @@ const WrapperFlex = ({
       style={{
         backgroundColor: background,
         flexDirection: direction,
+        justifyContent: justify,
       }}
     >
       {children}

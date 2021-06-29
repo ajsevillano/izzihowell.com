@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <WrapperFlex background="#f0f0f0" direction="row">
+      <WrapperFlex background="#f0f0f0" direction="row" justify="space-evenly">
         {/* <div className={styles.title}>
           Winner of the <span className={styles.spanpink}>Royal Society</span>{' '}
           Young People's <span className={styles.spanpink}>Book Prize</span>{' '}
