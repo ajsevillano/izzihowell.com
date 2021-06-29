@@ -14,7 +14,7 @@ const WrapperFlex = ({
   justify = defaultProps.justify,
 }) => {
   return (
-    <div
+    <section
       className={[
         styles.wrapper,
         styles[background],
@@ -23,7 +23,7 @@ const WrapperFlex = ({
       ].join(' ')}
     >
       {children}
-    </div>
+    </section>
   );
 };
 
