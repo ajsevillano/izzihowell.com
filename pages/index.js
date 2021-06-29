@@ -14,11 +14,21 @@ export default function Home() {
           Young People's <span className={styles.spanpink}>Book Prize</span>{' '}
         </div>
         <h1 className={styles.awardyear}>2020</h1> */}
-        <div className="image">
-          <img src="/books/cats-react-scient.png" alt="" width="100px" />
+        <div className={styles.imgbookcover}>
+          <img
+            className={styles.image}
+            src="/books/cats-react-scient.png"
+            alt="Cats react to scient facts"
+          />
         </div>
-        <div className="text">
-          Winner of the <span className={styles.spanpink}>Royal Society</span>
+        <div className={styles.royalsocietylogo}>
+          <p className={styles.winnertext}>Winner of the </p>
+          <img
+            className={styles.winnerimg}
+            src="royal-society-logo.png"
+            alt=""
+            width="180px"
+          />
         </div>
       </WrapperFlex>
       <Books />
