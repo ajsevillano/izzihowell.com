@@ -1,7 +1,7 @@
 import styles from './WrapperFlex.module.scss';
 
 const defaultProps = {
-  background: '#ffffff',
+  background: 'white',
   direction: 'column',
   justify: 'center',
 };
@@ -15,12 +15,12 @@ const WrapperFlex = ({
 }) => {
   return (
     <div
-      className={styles.wrapper}
-      style={{
-        backgroundColor: background,
-        flexDirection: direction,
-        justifyContent: justify,
-      }}
+      className={[
+        styles.wrapper,
+        styles[background],
+        styles[direction],
+        styles[justify],
+      ].join(' ')}
     >
       {children}
     </div>

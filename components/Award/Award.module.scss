@@ -1,12 +1,12 @@
 .imgbookcover {
   padding-bottom: 1.5rem;
   padding-top: 1rem;
-}
 
-.image {
-  width: 100px;
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgb(88 88 88 / 20%);
+  .bookimage {
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(88 88 88 / 20%);
+  }
 }
 
 .royalsocietylogo {
@@ -14,15 +14,14 @@
   flex-direction: column;
   align-items: center;
   padding-top: 0.8rem;
-}
 
-.winnertext {
-  margin: 0;
-  margin-bottom: 0.2rem;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
+  .winnertext {
+    margin: 0 0 0.2rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
 
-.winnerimg {
-  padding-bottom: 1.5rem;
+  .winnerimg {
+    padding-bottom: 1.5rem;
+  }
 }

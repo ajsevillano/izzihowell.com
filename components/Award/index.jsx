@@ -3,10 +3,10 @@ import WrapperFlex from '../Layouts/WrapperFlex';
 
 const Award = () => {
   return (
-    <WrapperFlex background="#f0f0f0" direction="row" justify="space-evenly">
+    <WrapperFlex background="grey" direction="row" justify="space-evenly">
       <div className={styles.imgbookcover}>
         <img
-          className={styles.image}
+          className={styles.bookimage}
           src="/books/cats-react-scient.png"
           alt="Cats react to scient facts"
         />
