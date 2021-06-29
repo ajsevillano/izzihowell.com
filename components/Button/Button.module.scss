@@ -4,8 +4,19 @@
   border-radius: 0.2rem;
   font-size: 1rem;
   font-weight: 700;
-  color: #353535;
   cursor: pointer;
+}
+
+//Variants
+.primary {
+  background-color: white;
+  color: #353535;
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid #2c9eff;
+  color: #2c9eff;
 }
 
 //Sizes
@@ -18,8 +29,6 @@
   width: 115px;
 }
 
-// Colors
-
-.white {
-  background-color: white;
+.xl {
+  width: 100%;
 }
