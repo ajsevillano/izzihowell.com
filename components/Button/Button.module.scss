@@ -2,9 +2,10 @@
   border: none;
   padding: 0.8rem;
   border-radius: 0.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
+  text-align: center;
 }
 
 //Variants
@@ -17,6 +18,10 @@
   background-color: transparent;
   border: 1px solid #2c9eff;
   color: #2c9eff;
+  &:hover,
+  :focus {
+    background: rgba(41, 98, 255, 0.1);
+  }
 }
 
 //Sizes

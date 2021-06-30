@@ -8,11 +8,9 @@ const Button = ({
   variant = defaultProps.variant,
 }) => {
   return (
-    <button
-      className={[styles.button, styles[size], styles[variant]].join(' ')}
-    >
+    <div className={[styles.button, styles[size], styles[variant]].join(' ')}>
       {children}
-    </button>
+    </div>
   );
 };
 
