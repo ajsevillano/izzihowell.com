@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Dela+Gothic+One&family=Montserrat:wght@500&display=swap');
 
 html,
 body {
@@ -14,4 +14,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
 }
