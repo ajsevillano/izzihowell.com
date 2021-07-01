@@ -5,9 +5,9 @@ import WrapperFlex from '../Layouts/WrapperFlex';
 const Instagram = () => {
   return (
     <>
-      <WrapperFlex>
-        <h1 className={styles.sectiontitle}>My books</h1>
-        <p className={styles.sectionsubtitle}>A showcase of some of my books</p>
+      <WrapperFlex background="grey">
+        <h1 className={styles.sectiontitle}>Instagram</h1>
+        <p className={styles.sectionsubtitle}>My latest posts</p>
       </WrapperFlex>
       <WrapperGrid background="grey">
         <div className={styles.contentwrapper}>
