@@ -5,7 +5,6 @@ const defaultProps = {
 };
 
 const WrapperGrid = ({ children, background = defaultProps.background }) => {
-  console.log(background);
   return (
     <div className={[styles.gridwrapper, styles[background]].join(' ')}>
       {children}
