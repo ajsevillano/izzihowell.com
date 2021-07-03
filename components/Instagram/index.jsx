@@ -3,6 +3,7 @@ import WrapperGrid from '../Layouts/WrapperGrid';
 import WrapperFlex from '../Layouts/WrapperFlex';
 
 const Instagram = ({ feed }) => {
+  const postsNumber = feed.filter((post, index) => index < 10);
   return (
     <section className={styles.container}>
       <WrapperFlex background="grey">
@@ -10,7 +11,7 @@ const Instagram = ({ feed }) => {
         <p className={styles.sectionsubtitle}>My latest posts</p>
       </WrapperFlex>
       <WrapperGrid background="grey">
-        {feed.map((post) => (
+        {postsNumber.map((post, index) => (
           <div key={post.id} className={styles.post}>
             <img src={post.media_url} alt={post.id} />
           </div>
