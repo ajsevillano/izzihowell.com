@@ -11,6 +11,7 @@ export const getStaticProps = async () => {
     parameters: process.env.PARAMETERS,
     token: process.env.TOKEN,
   };
+
   const res = await fetch(
     `${api.url}/${api.userID}/${api.parameters}=${api.token}`
   );
