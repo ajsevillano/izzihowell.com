@@ -3,7 +3,7 @@ import WrapperGrid from '../Layouts/WrapperGrid';
 import WrapperFlex from '../Layouts/WrapperFlex';
 
 const Instagram = ({ feed }) => {
-  const postsNumber = feed.filter((post, index) => index < 10);
+  const postsNumber = feed.filter((post, index) => index < 5);
   return (
     <section className={styles.container}>
       <WrapperFlex background="grey">
