@@ -31,8 +31,9 @@ export default function Home({ feedData }) {
     <>
       <Header />
       <Award />
+      <BookShape color="grey" />
       <Books />
-      <BookShape />
+      <BookShape color="white" />
       <Instagram feed={feedData} />
       <Footer />
     </>

@@ -1,6 +1,8 @@
 import styles from './BookShape.module.scss';
 
-const BookShape = () => {
+const defaultProps = { color: 'white' };
+
+const BookShape = ({ color = defaultProps.color }) => {
   return (
     <>
       <div className={styles.content}>
@@ -13,7 +15,7 @@ const BookShape = () => {
           >
             <path
               d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
-              className={styles.shapefill}
+              className={styles[color]}
             ></path>
           </svg>
         </div>
