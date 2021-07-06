@@ -1,7 +1,14 @@
 .wrapper {
   width: 100%;
   display: flex;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
+}
+
+//Desktop
+@media (min-width: 1300px) {
+  .wrapper {
+    padding: 0 5rem;
+  }
 }
 
 //Flex direction

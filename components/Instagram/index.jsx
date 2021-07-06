@@ -6,9 +6,9 @@ const Instagram = ({ feed }) => {
   const postsNumber = feed.filter((post, index) => index < 5);
   return (
     <section className={styles.container}>
-      <WrapperFlex background="grey">
-        <h1 className={styles.sectiontitle}>Instagram</h1>
+      <WrapperFlex background="grey" align="left">
         <p className={styles.sectionsubtitle}>My latest posts</p>
+        <h1 className={styles.sectiontitle}>Instagram</h1>
       </WrapperFlex>
       <WrapperGrid background="grey">
         {postsNumber.map((post, index) => (
