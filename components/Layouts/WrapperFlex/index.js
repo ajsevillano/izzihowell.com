@@ -4,6 +4,7 @@ const defaultProps = {
   background: 'white',
   direction: 'column',
   justify: 'center',
+  align: 'align-center',
 };
 
 // Section Wrapper
@@ -12,6 +13,7 @@ const WrapperFlex = ({
   background = defaultProps.background,
   direction = defaultProps.direction,
   justify = defaultProps.justify,
+  align = defaultProps.align,
 }) => {
   return (
     <section
@@ -20,6 +22,7 @@ const WrapperFlex = ({
         styles[background],
         styles[direction],
         styles[justify],
+        styles[align],
       ].join(' ')}
     >
       {children}

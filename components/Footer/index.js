@@ -4,7 +4,7 @@ import WrapperFlex from '../Layouts/WrapperFlex';
 const Footer = () => {
   return (
     <>
-      <WrapperFlex background="pink">
+      <WrapperFlex background="pink" align="align-left">
         <h1 className={styles.title}>Follow me</h1>
       </WrapperFlex>
     </>
