@@ -2,26 +2,14 @@
   font-size: 3rem;
   margin: 0;
   color: #353535;
-  margin-top: 0;
+  margin-top: 3rem;
 }
 
 .sectionsubtitle {
-  color: #757575;
+  color: #e2055e;
   font-size: 1rem;
-  margin-top: 5rem;
-  margin-bottom: 0;
+  margin-top: 0.4rem;
   text-transform: uppercase;
-  position: relative;
-  padding-left: 3rem;
-  &::before {
-    content: '';
-    width: 10%;
-    border-bottom: solid 1px rgb(190, 32, 32);
-    position: absolute;
-    left: 4px;
-    top: 50%;
-    z-index: 1;
-  }
 }
 
 .container {
