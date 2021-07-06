@@ -1,10 +1,10 @@
-import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
 import Books from '../components/Books';
 import Award from '../components/Award';
 import Instagram from '../components/Instagram';
 import Footer from '../components/Footer';
 import Reviews from '../components/Reviews';
+import BookShape from '../components/Separators/BookShape';
 
 export const getStaticProps = async () => {
   const api = {
@@ -32,7 +32,7 @@ export default function Home({ feedData }) {
       <Header />
       <Award />
       <Books />
-      <Reviews />
+      <BookShape />
       <Instagram feed={feedData} />
       <Footer />
     </>
