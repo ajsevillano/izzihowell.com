@@ -10,6 +10,7 @@ const BookCard = () => {
         <div key={book.uid} className={styles.book}>
           <img src={book.img} alt={book.name} />
           <h3>{book.name}</h3>
+          <p>{book.set}</p>
         </div>
       ))}
     </>
