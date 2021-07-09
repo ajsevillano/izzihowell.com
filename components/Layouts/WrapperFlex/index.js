@@ -16,7 +16,7 @@ const WrapperFlex = ({
   align = defaultProps.align,
 }) => {
   return (
-    <section
+    <div
       className={[
         styles.wrapper,
         styles[direction],
@@ -25,7 +25,7 @@ const WrapperFlex = ({
       ].join(' ')}
     >
       {children}
-    </section>
+    </div>
   );
 };
 
