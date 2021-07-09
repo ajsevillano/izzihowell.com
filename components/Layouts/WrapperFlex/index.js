@@ -10,7 +10,7 @@ const defaultProps = {
 // Section Wrapper
 const WrapperFlex = ({
   children,
-  background = defaultProps.background,
+
   direction = defaultProps.direction,
   justify = defaultProps.justify,
   align = defaultProps.align,
@@ -19,7 +19,7 @@ const WrapperFlex = ({
     <section
       className={[
         styles.wrapper,
-        styles[background],
+
         styles[direction],
         styles[justify],
         styles[align],

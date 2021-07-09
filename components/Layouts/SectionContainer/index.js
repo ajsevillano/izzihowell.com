@@ -9,7 +9,7 @@ const SectionContainer = ({
   background = defaultProps.background,
 }) => {
   return (
-    <section className={[styles.container, styles[background].join(' ')]}>
+    <section className={[styles.container, styles[background]].join(' ')}>
       {children}
     </section>
   );
