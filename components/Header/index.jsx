@@ -3,10 +3,11 @@ import WrapperFlex from '../Layouts/WrapperFlex';
 import Hero from './Hero/index';
 import Navigation from './Navigation';
 import Wave from './Wave';
+import SectionContainer from '../Layouts/SectionContainer';
 
 const Header = () => {
   return (
-    <>
+    <SectionContainer background="yellow">
       <Head>
         <title>Izzi Howell - award winning children's books author</title>
         <meta
@@ -20,7 +21,7 @@ const Header = () => {
         <Hero />
       </WrapperFlex>
       <Wave />
-    </>
+    </SectionContainer>
   );
 };
 
