@@ -19,7 +19,6 @@ const WrapperFlex = ({
     <section
       className={[
         styles.wrapper,
-
         styles[direction],
         styles[justify],
         styles[align],
