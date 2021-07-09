@@ -1,15 +1,7 @@
 import styles from './WrapperGrid.module.scss';
 
-const defaultProps = {
-  background: 'white',
-};
-
-const WrapperGrid = ({ children, background = defaultProps.background }) => {
-  return (
-    <div className={[styles.gridwrapper, styles[background]].join(' ')}>
-      {children}
-    </div>
-  );
+const WrapperGrid = ({ children }) => {
+  return <div className={styles.gridwrapper}>{children}</div>;
 };
 
 export default WrapperGrid;
