@@ -4,7 +4,7 @@ import SectionContainer from '../Layouts/SectionContainer';
 
 const Footer = () => {
   return (
-    <SectionContainer background="pink">
+    <SectionContainer background="dark-blue">
       <WrapperFlex align="align-left">
         <h1 className={styles.title}>Follow me</h1>
       </WrapperFlex>
