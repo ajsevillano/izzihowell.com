@@ -1,6 +1,8 @@
+//Styles & Layouts
 import styles from './Award.module.scss';
 import WrapperFlex from '../Layouts/WrapperFlex';
 import SectionContainer from '../Layouts/SectionContainer';
+//Components
 import Button from '../Button';
 
 const Award = () => {
