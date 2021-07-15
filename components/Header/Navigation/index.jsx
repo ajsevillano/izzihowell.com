@@ -15,7 +15,7 @@ const Navigation = () => {
           <li>About</li>
           <li>Social</li>
           <li>
-            <Button>Contact me</Button>
+            <Button size="lg">Contact me</Button>
           </li>
         </ul>
       </nav>
