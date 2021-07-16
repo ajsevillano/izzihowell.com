@@ -1,8 +1,12 @@
+import { useState, useEffect } from 'react';
 import SectionContainer from '../Layouts/SectionContainer';
 import WrapperFlex from '../Layouts/WrapperFlex';
 import styles from './Reviews.module.scss';
+import { booksReviews } from '../../data/reviews';
 
 const Reviews = () => {
+  const [reviews, setReviews] = useState(booksReviews);
+
   return (
     <SectionContainer background="blue">
       <WrapperFlex>
