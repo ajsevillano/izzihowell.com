@@ -10,7 +10,6 @@ const defaultProps = {
 // Section Wrapper
 const WrapperFlex = ({
   children,
-
   direction = defaultProps.direction,
   justify = defaultProps.justify,
   align = defaultProps.align,
