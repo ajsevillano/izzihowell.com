@@ -7,12 +7,18 @@ import { booksReviews } from '../../data/reviews';
 const Reviews = () => {
   const [reviews, setReviews] = useState(booksReviews);
 
+  const changeReview = (direction) => {
+    console.log(direction);
+  };
+
   return (
     <SectionContainer background="blue">
       <WrapperFlex direction="row">
-        <div>
-          <img src="arrow-left.svg" alt="Arrow left" />
-        </div>
+        <img
+          onClick={(e) => changeReview('left')}
+          src="arrow-left.svg"
+          alt="Arrow left"
+        />
 
         {reviews.map(
           (data) =>
@@ -33,9 +39,11 @@ const Reviews = () => {
             )
         )}
 
-        <div>
-          <img src="arrow-right.svg" alt="Arrow right" />
-        </div>
+        <img
+          onClick={(e) => changeReview('right')}
+          src="arrow-right.svg"
+          alt="Arrow right"
+        />
       </WrapperFlex>
     </SectionContainer>
   );
