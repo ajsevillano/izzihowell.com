@@ -16,7 +16,7 @@ const Reviews = () => {
 
         {reviews.map(
           (data) =>
-            data.id === 1 && (
+            data.status === true && (
               <div className={styles.reviewwrapper} key={data.id}>
                 <h1 className={styles.title}>Some reviews about my books</h1>
                 <img
