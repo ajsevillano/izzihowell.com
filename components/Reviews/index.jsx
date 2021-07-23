@@ -12,26 +12,22 @@ const Reviews = () => {
       .filter((data) => data.status === true)
       .map((data) => data.id);
 
-    if (direction === 'left') {
-      if (currentReview[0] !== 1) {
-        const updateValue = reviews.map((element) =>
-          element.id === currentReview[0] - 1
-            ? { ...element, status: true }
-            : { ...element, status: false }
-        );
-        setReviews(updateValue);
-      }
+    if ((currentReview[0] !== 1) & (direction === 'left')) {
+      const updateValue = reviews.map((element) =>
+        element.id === currentReview[0] - 1
+          ? { ...element, status: true }
+          : { ...element, status: false }
+      );
+      setReviews(updateValue);
     }
 
-    if (direction === 'right') {
-      if (currentReview[0] !== 3) {
-        const updateValue = reviews.map((element) =>
-          element.id === currentReview[0] + 1
-            ? { ...element, status: true }
-            : { ...element, status: false }
-        );
-        setReviews(updateValue);
-      }
+    if ((currentReview[0] !== 3) & (direction === 'right')) {
+      const updateValue = reviews.map((element) =>
+        element.id === currentReview[0] + 1
+          ? { ...element, status: true }
+          : { ...element, status: false }
+      );
+      setReviews(updateValue);
     }
   };
 
@@ -39,6 +35,7 @@ const Reviews = () => {
     <SectionContainer background="blue">
       <WrapperFlex direction="row">
         <img
+          className={styles.arrow}
           onClick={(e) => changeReview('left')}
           src="arrow-left.svg"
           alt="Arrow left"
@@ -64,6 +61,7 @@ const Reviews = () => {
         )}
 
         <img
+          className={styles.arrow}
           onClick={(e) => changeReview('right')}
           src="arrow-right.svg"
           alt="Arrow right"
