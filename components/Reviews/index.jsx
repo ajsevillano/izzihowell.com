@@ -8,7 +8,55 @@ const Reviews = () => {
   const [reviews, setReviews] = useState(booksReviews);
 
   const changeReview = (direction) => {
-    console.log(direction);
+    const currentReview = reviews
+      .filter((data) => data.status === true)
+      .map((data) => data.id);
+
+    if (direction === 'left') {
+      switch (currentReview[0]) {
+        case 2:
+          const updateValue = reviews.map((element) =>
+            element.id === currentReview[0] - 1
+              ? { ...element, status: true }
+              : { ...element, status: false }
+          );
+          setReviews(updateValue);
+
+        case 3:
+          const updateValue2 = reviews.map((element) =>
+            element.id === currentReview[0] - 1
+              ? { ...element, status: true }
+              : { ...element, status: false }
+          );
+          setReviews(updateValue2);
+
+        default:
+          break;
+      }
+    }
+
+    if (direction === 'right') {
+      switch (currentReview[0]) {
+        case 1:
+          const updateValue = reviews.map((element) =>
+            element.id === currentReview[0] + 1
+              ? { ...element, status: true }
+              : { ...element, status: false }
+          );
+          setReviews(updateValue);
+
+        case 2:
+          const updateValue2 = reviews.map((element) =>
+            element.id === currentReview[0] + 1
+              ? { ...element, status: true }
+              : { ...element, status: false }
+          );
+          setReviews(updateValue2);
+
+        default:
+          break;
+      }
+    }
   };
 
   return (
