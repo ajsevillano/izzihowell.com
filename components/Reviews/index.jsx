@@ -12,7 +12,7 @@ const Reviews = () => {
       .filter((data) => data.status === true)
       .map((data) => data.id);
 
-    if ((currentReview[0] !== 1) & (direction === 'left')) {
+    if ((currentReview[0] > 1) & (direction === 'left')) {
       const updateValue = reviews.map((element) =>
         element.id === currentReview[0] - 1
           ? { ...element, status: true }
@@ -21,7 +21,7 @@ const Reviews = () => {
       setReviews(updateValue);
     }
 
-    if ((currentReview[0] !== 3) & (direction === 'right')) {
+    if ((currentReview[0] < 3) & (direction === 'right')) {
       const updateValue = reviews.map((element) =>
         element.id === currentReview[0] + 1
           ? { ...element, status: true }
