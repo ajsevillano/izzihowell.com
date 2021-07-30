@@ -2,7 +2,7 @@ import Head from 'next/head';
 import WrapperFlex from '../Layouts/WrapperFlex';
 import Hero from './Hero/index';
 import Navigation from './Navigation';
-import Wave from './Wave';
+import Wave from '../Separators/Wave';
 import SectionContainer from '../Layouts/SectionContainer';
 
 const Header = () => {
