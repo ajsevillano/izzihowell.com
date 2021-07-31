@@ -8,14 +8,10 @@ const Footer = () => {
       <WrapperFlex align="align-center">
         <h1 className={styles.title}>Contact me</h1>
         <h1 className={styles.logo}>Izzi Howell</h1>
-        <p>hi@izzihowell.com</p>
+        <p className={styles.email}>hi@izzihowell.com</p>
         <div>
-          <div>
-            <img src="./instagram.svg" alt="Instagram logo" />
-          </div>
-          <div>
-            <img src="./linkedin.svg" alt="Linkedin logo" />
-          </div>
+          <img src="./instagram.svg" alt="Instagram logo" />
+          <img src="./linkedin.svg" alt="Linkedin logo" />
         </div>
         <div>
           © Copyright 2021 Izzi Howell - Children's book author. All rights
