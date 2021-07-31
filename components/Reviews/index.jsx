@@ -40,12 +40,13 @@ const Reviews = () => {
           src="arrow-left.svg"
           alt="Arrow left"
         />
-
+<div>
+<h1 className={styles.title}>Some reviews about my books</h1>
         {reviews.map(
           (data) =>
             data.status === true && (
               <div className={styles.reviewwrapper} key={data.id}>
-                <h1 className={styles.title}>Some reviews about my books</h1>
+             
                 <img
                   className={styles.reviewimages}
                   src={data.img}
@@ -59,7 +60,7 @@ const Reviews = () => {
               </div>
             )
         )}
-
+</div>
         <img
           className={styles.arrow}
           onClick={(e) => changeReview('right')}
