@@ -10,8 +10,12 @@ const Footer = () => {
         <h1 className={styles.logo}>Izzi Howell</h1>
         <p>hi@izzihowell.com</p>
         <div>
-          <div>Instagram</div>
-          <div>Linkedin</div>
+          <div>
+            <img src="./instagram.svg" alt="Instagram logo" />
+          </div>
+          <div>
+            <img src="./linkedin.svg" alt="Linkedin logo" />
+          </div>
         </div>
         <div>
           © Copyright 2021 Izzi Howell - Children's book author. All rights
