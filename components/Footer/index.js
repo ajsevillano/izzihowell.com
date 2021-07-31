@@ -13,11 +13,11 @@ const Footer = () => {
           <img src="./instagram.svg" alt="Instagram logo" />
           <img src="./linkedin.svg" alt="Linkedin logo" />
         </div>
-        <div>
+        <p className={styles.copyright}>
           © Copyright 2021 Izzi Howell - Children's book author. All rights
           reserved Trademarks and brands are the property of their respective
           owners.
-        </div>
+        </p>
       </WrapperFlex>
     </SectionContainer>
   );
