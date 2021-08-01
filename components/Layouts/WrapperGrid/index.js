@@ -1,3 +1,5 @@
+// TODO: Add a prop to choose paddins
+
 import styles from './WrapperGrid.module.scss';
 
 const WrapperGrid = ({ children }) => {
