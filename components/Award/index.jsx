@@ -28,7 +28,7 @@ const Award = () => {
           </div>
         </div>
         <div className={styles.buttonwrapper}>
-          <Button size="xl" variant="outline">
+          <Button size="xl" variant="outline-pink">
             Read more about the award
           </Button>
         </div>

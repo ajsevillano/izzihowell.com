@@ -14,13 +14,27 @@
   color: #353535;
 }
 
-.outline {
+//Outline color variants
+.outline-blue,
+.outline-pink {
   background-color: transparent;
+}
+
+.outline-pink {
   border: 1px solid #e2055e;
   color: #e2055e;
   &:hover,
   :focus {
     background: #ffe5ef;
+  }
+}
+
+.outline-blue {
+  border: 1px solid #2c9eff;
+  color: #2c9eff;
+  &:hover,
+  :focus {
+    background: #e5f0ff;
   }
 }
 
