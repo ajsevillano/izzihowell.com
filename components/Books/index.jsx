@@ -3,6 +3,7 @@ import WrapperFlex from '../Layouts/WrapperFlex/';
 import BookCard from './BookCard';
 import WrapperGrid from '../Layouts/WrapperGrid';
 import SectionContainer from '../Layouts/SectionContainer';
+import Button from '../Button/index';
 
 const Books = () => {
   return (
@@ -14,6 +15,11 @@ const Books = () => {
       <WrapperGrid>
         <BookCard />
       </WrapperGrid>
+      <div className={styles.buttonwrapper}>
+        <Button size="xl" variant="outline">
+          See more books
+        </Button>
+      </div>
     </SectionContainer>
   );
 };
