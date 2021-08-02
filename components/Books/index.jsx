@@ -1,8 +1,10 @@
 import styles from './Books.module.scss';
-import WrapperFlex from '../Layouts/WrapperFlex/';
-import BookCard from './BookCard';
-import WrapperGrid from '../Layouts/WrapperGrid';
+
 import SectionContainer from '../Layouts/SectionContainer';
+import WrapperFlex from '../Layouts/WrapperFlex/';
+import WrapperGrid from '../Layouts/WrapperGrid';
+
+import BookCard from './BookCard';
 import Button from '../Button/index';
 
 const Books = () => {
