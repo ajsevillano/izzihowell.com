@@ -17,7 +17,7 @@ const Books = () => {
       </WrapperGrid>
       <div className={styles.buttonwrapper}>
         <Button size="xl" variant="outline">
-          See more books
+          <a href=""> See more books</a>
         </Button>
       </div>
     </SectionContainer>
