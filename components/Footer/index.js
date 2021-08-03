@@ -10,6 +10,9 @@ const Footer = () => {
         <h1 className={styles.logo}>Izzi Howell</h1>
         <p className={styles.email}>hi@izzihowell.com</p>
         <div>
+          <a href="mailto:hi@izzihowell.com">
+            <img src="./email.svg" alt="Email" />
+          </a>
           <a href="https://www.instagram.com/izzihowell/" target="_blank">
             <img src="./instagram.svg" alt="Instagram logo" />
           </a>
