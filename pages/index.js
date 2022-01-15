@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Reviews from '../components/Reviews';
 import BookShape from '../components/Separators/BookShape';
 
+//Need update to last version of the instagram API
 export const getStaticProps = async () => {
   const api = {
     url: process.env.API_URL,
