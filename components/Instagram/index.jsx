@@ -2,6 +2,7 @@ import styles from './Instagram.module.scss';
 import WrapperGrid from '../Layouts/WrapperGrid';
 import WrapperFlex from '../Layouts/WrapperFlex';
 import SectionContainer from '../Layouts/SectionContainer';
+import Image from 'next/image';
 
 const Instagram = ({ feed }) => {
   const postsNumber = feed.filter((post, index) => index < 6);
@@ -14,7 +15,12 @@ const Instagram = ({ feed }) => {
       <WrapperGrid bottomPadding>
         {postsNumber.map((post, index) => (
           <div key={post.id} className={styles.post}>
-            <img src={post.media_url} alt={post.id} />
+            <Image
+              src={post.media_url}
+              alt={post.id}
+              width={178.78}
+              height={178.78}
+            />
           </div>
         ))}
       </WrapperGrid>

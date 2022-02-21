@@ -14,14 +14,14 @@ export const books = [
 
   {
     uid: 3,
-    name: 'stant against prejudice',
+    name: 'Stant against prejudice',
     set: 'Stant against...',
     img: '/books/stand.png',
   },
   {
     uid: 4,
-    name: 'working with computers & robotics',
-    set: 'working with',
+    name: 'Working with computers & robotics',
+    set: 'Working with',
     img: '/books/working-computers-robots.png',
   },
   {
