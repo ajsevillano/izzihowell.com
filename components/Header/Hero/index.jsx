@@ -1,19 +1,25 @@
 import styles from './Hero.module.scss';
 import Button from '../../Button';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
     <div className={styles.herowrapper}>
-      <div className={styles.heroimg}>
-        <img src="izzi-presentation.png" alt="Izzi Howell" />
+      <div>
+        <Image
+          src="/../public/izzi-presentation.png"
+          alt="Izzi Howell"
+          width="345px"
+          height="317.45px"
+        />
       </div>
       <div className={styles.intro}>
-        <h1> Hi, I'm </h1>
+        <h1> Hi, I&rsquo;m </h1>
         <h1>Izzi Howell</h1>
         <p className={styles.firstparagraph}>
-          I'm an author and editor of children’s reference books. I’ve written
-          over 100 books on many exciting topics, from space 🚀 and volcanoes 🌋
-          to the Ancient Greeks 🎭 and electricity ⚡!
+          I&rsquo;m an author and editor of children’s reference books. I’ve
+          written over 100 books on many exciting topics, from space 🚀 and
+          volcanoes 🌋 to the Ancient Greeks 🎭 and electricity ⚡!
         </p>
         <p className={styles.secondparagraph}>
           I love to write about animals – did you know that crocodiles sometimes
