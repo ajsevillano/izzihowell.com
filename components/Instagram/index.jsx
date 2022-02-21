@@ -11,7 +11,7 @@ const Instagram = ({ feed }) => {
         <h1 className={styles.sectiontitle}>Instagram</h1>
         <p className={styles.sectionsubtitle}>My latest posts</p>
       </WrapperFlex>
-      <WrapperGrid>
+      <WrapperGrid bottomPadding>
         {postsNumber.map((post, index) => (
           <div key={post.id} className={styles.post}>
             <img src={post.media_url} alt={post.id} />
