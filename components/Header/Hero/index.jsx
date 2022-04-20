@@ -16,8 +16,8 @@ const Hero = () => {
         />
       </div>
       <div className={styles.intro}>
-        <h1> Hi, I&rsquo;m </h1>
-        <h1>Izzi Howell</h1>
+        <h1> Hi, I&rsquo;m Izzi Howell, </h1>
+        <h1>Children&apos;s book author</h1>
         <p className={styles.firstparagraph}>
           I&rsquo;m an author and editor of children’s reference books. I’ve
           written over 100 books on many exciting topics, from space 🚀 and

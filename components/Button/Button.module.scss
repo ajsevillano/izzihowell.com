@@ -16,7 +16,8 @@
 
 //Outline color variants
 .outline-blue,
-.outline-pink {
+.outline-pink,
+.outline-white {
   background-color: transparent;
 }
 
@@ -26,6 +27,15 @@
   &:hover,
   :focus {
     background: #ffe5ef;
+  }
+}
+
+.outline-white {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  &:hover,
+  :focus {
+    background: #e5f0ff;
   }
 }
 
