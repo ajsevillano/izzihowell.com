@@ -22,12 +22,14 @@
 
   //Desktop
   @media (min-width: 1300px) {
+    max-width: 1200px;
     .mobilenav {
       display: none;
     }
 
     .navigation {
       display: flex;
+      margin-left: auto;
       ul {
         display: flex;
         justify-content: space-between;

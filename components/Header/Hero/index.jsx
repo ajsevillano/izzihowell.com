@@ -5,12 +5,14 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <div className={styles.herowrapper}>
-      <div>
+      <div className={styles.img}>
         <Image
           src="/../public/izzi-presentation.png"
           alt="Izzi Howell"
-          width="345px"
-          height="317.45px"
+          width="100%"
+          height="100%"
+          layout="responsive"
+          objectFit="contain"
         />
       </div>
       <div className={styles.intro}>

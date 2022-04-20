@@ -32,6 +32,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem;
+    padding: 1rem 0 2rem 0;
+  }
+
+  //Desktop
+  @media (min-width: 1300px) {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    justify-content: space-between;
+
+    .intro {
+      text-align: left;
+      flex: 0.6;
+      justify-content: end;
+    }
+
+    .img {
+      flex: 0.4;
+    }
+
+    .buttonwrapper {
+      justify-content: left;
+    }
   }
 }
