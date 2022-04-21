@@ -5,7 +5,7 @@ import SectionContainer from '../Layouts/SectionContainer';
 import Image from 'next/image';
 
 const Instagram = ({ feed }) => {
-  const postsNumber = feed.filter((post, index) => index < 6);
+  const postsNumber = feed.filter((post, index) => index < 10);
   return (
     <SectionContainer background="grey">
       <WrapperFlex>
@@ -21,6 +21,10 @@ const Instagram = ({ feed }) => {
               width={178.78}
               height={178.78}
             />
+            <p className={styles.instagramCaption}>{`${post.caption.slice(
+              0,
+              65
+            )} ...`}</p>
           </div>
         ))}
       </WrapperGrid>
