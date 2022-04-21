@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Dela+Gothic+One&family=Montserrat:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Dela+Gothic+One&family=Montserrat:wght@500;700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -16,7 +16,7 @@ a {
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 

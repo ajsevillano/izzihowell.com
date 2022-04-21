@@ -6,12 +6,21 @@
   font-weight: 700;
   cursor: pointer;
   text-align: center;
+  transition: 0.3s;
 }
 
 //Variants
 .primary {
   background-color: white;
   color: #353535;
+  &:hover,
+  :focus {
+    background: #e2055e;
+    color: white;
+  }
+  &:active {
+    transform: scale(0.9);
+  }
 }
 
 //Outline color variants
