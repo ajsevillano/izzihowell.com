@@ -15,12 +15,14 @@ const Instagram = ({ feed }) => {
       <WrapperGrid bottomPadding>
         {postsNumber.map((post, index) => (
           <div key={post.id} className={styles.post}>
-            <Image
-              src={post.media_url}
-              alt={post.id}
-              width={178.78}
-              height={178.78}
-            />
+            <a href={post.permalink} target="_blank" rel="noreferrer">
+              <Image
+                src={post.media_url}
+                alt={post.id}
+                width={178.78}
+                height={178.78}
+              />
+            </a>
             <p className={styles.instagramCaption}>{`${post.caption.slice(
               0,
               65
