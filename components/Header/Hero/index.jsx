@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <p className={styles.secondparagraph}>
           I love to write about animals – did you know that crocodiles sometimes
-          climb trees to sunbathe?!
+          climb trees to sunbathe?! 🐊🌳
         </p>
         <div className={styles.buttonwrapper}>
           <Button size="lg">Get in touch</Button>

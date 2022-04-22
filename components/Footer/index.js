@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
         </div>
         <p className={styles.copyright}>
-          © Copyright 2021 Izzi Howell - Children's book author. All rights
+          © Copyright 2022 Izzi Howell - Children's book author. All rights
           reserved Trademarks and brands are the property of their respective
           owners.
         </p>

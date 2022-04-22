@@ -23,6 +23,9 @@
   transition: transform 0.4s, -webkit-transform 0.4s;
   margin-left: auto;
   margin-right: auto;
+  &:hover {
+    transform: translateY(-10px);
+  }
 
   img {
     cursor: pointer;
