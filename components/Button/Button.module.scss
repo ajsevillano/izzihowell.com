@@ -23,6 +23,19 @@
   }
 }
 
+.secundary {
+  background: #e2055e;
+  color: white;
+  &:active {
+    transform: scale(0.9);
+  }
+  &:hover,
+  :focus {
+    background: #ff2b80;
+    color: white;
+  }
+}
+
 //Outline color variants
 .outline-blue,
 .outline-pink,

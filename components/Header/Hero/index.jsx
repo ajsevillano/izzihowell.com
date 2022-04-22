@@ -19,8 +19,10 @@ const Hero = () => {
         <h1> Hi, I&rsquo;m Izzi Howell, </h1>
         <h1>Children&apos;s book author</h1>
         <p className={styles.firstparagraph}>
-          I&rsquo;m an author and editor of children’s reference books. I’ve
-          written over 100 books on many exciting topics, from space 🚀 and
+          I&rsquo;m an author and editor of children’s reference books.
+        </p>
+        <p>
+          I’ve written over 100 books on many exciting topics, from space 🚀 and
           volcanoes 🌋 to the Ancient Greeks 🎭 and electricity ⚡!
         </p>
         <p className={styles.secondparagraph}>
@@ -28,7 +30,9 @@ const Hero = () => {
           climb trees to sunbathe?! 🐊🌳
         </p>
         <div className={styles.buttonwrapper}>
-          <Button size="lg">Get in touch</Button>
+          <Button size="lg" variant="secundary">
+            Get in touch
+          </Button>
         </div>
       </div>
     </div>

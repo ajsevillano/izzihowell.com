@@ -15,8 +15,9 @@
     p {
       line-height: 1.7rem;
       font-size: 1.1rem;
-      color: #5a5a5a;
+      color: #272727;
       font-family: 'Montserrat', sans-serif;
+      margin: 0.4rem 0;
     }
 
     .firstparagraph {
@@ -39,6 +40,8 @@
 
   //Desktop
   @media (min-width: 1300px) {
+    margin: 1.5rem 0 0 0;
+    align-items: end;
     display: flex;
     flex-direction: row-reverse;
     max-width: 1200px;
@@ -50,7 +53,7 @@
       justify-content: end;
 
       h1 {
-        font-size: 3rem;
+        font-size: 3.2rem;
         font-weight: 900;
       }
     }
