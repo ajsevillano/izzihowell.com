@@ -10,7 +10,10 @@
 //Variants
 
 .yellow {
+  background-image: url(../../../public/wave-haikei.svg);
   background-color: #fdcd07;
+  background-size: cover;
+  background-repeat: none;
 }
 
 .grey {
@@ -26,9 +29,9 @@
 }
 
 //Background images
-.none {
-  background-image: none;
-}
+// .none {
+//   background-image: none;
+// }
 
 .pattern {
   background-image: url('/instagram-section-bg.jpg');
