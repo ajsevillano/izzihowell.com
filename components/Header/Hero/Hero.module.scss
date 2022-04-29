@@ -40,8 +40,8 @@
 
   //Desktop
   @media (min-width: 1300px) {
-    margin: 1.5rem 0 0 0;
-    align-items: end;
+    margin: 1.5rem 0 2rem 0;
+    align-items: flex-end;
     display: flex;
     flex-direction: row-reverse;
     max-width: 1200px;
@@ -50,7 +50,7 @@
     .intro {
       text-align: left;
       flex: 0.6;
-      justify-content: end;
+      justify-content: flex-end;
 
       h1 {
         font-size: 3.2rem;

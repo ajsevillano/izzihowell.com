@@ -7,7 +7,7 @@ const Hero = () => {
     <div className={styles.herowrapper}>
       <div className={styles.img}>
         <Image
-          src="/../public/izzi-presentation.png"
+          src="/izzi-presentation.png"
           alt="Izzi Howell"
           width="100%"
           height="100%"
